@@ -15,7 +15,7 @@ const Project = ({
   return (
     <div className={(isAlt ? 'project-alt' : '') + ' project'}>
       <div className="project-image">
-        <img src={imgPath} className="project-thumbnail" />
+        <img src={imgPath} className="project-thumbnail box-shadow" />
       </div>
       <div className="title-description">
         <div className="project-head">
