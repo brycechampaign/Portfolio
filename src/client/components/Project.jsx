@@ -18,22 +18,25 @@ const Project = ({
         <img src={imgPath} className="project-thumbnail" />
       </div>
       <div className="title-description">
-        <h2>{title}</h2>
+        <div className="project-head">
+          <h2>{title}</h2>
+          <div className="project-icon-group">
+            <a href={githubLink} target="_blank">
+              <FontAwesomeIcon icon={faGithubSquare} size="2x" />
+            </a>
+            {liveLink ? (
+              <a href={liveLink} target="_blank">
+                <FontAwesomeIcon
+                  icon={faExternalLinkSquareAlt}
+                  size="2x"
+                  className="icon-margin-left"
+                />
+              </a>
+            ) : null}
+          </div>
+        </div>
         <p>{description}</p>
-        <a href={githubLink} target="_blank">
-          <FontAwesomeIcon icon={faGithubSquare} size="2x" />
-        </a>
-        {liveLink ? (
-          <a href={liveLink} target="_blank">
-            <FontAwesomeIcon
-              icon={faExternalLinkSquareAlt}
-              size="2x"
-              className="icon-margin-left"
-            />
-          </a>
-        ) : null}
         <div className="skills-container">
-          <h3 className="skills-heading">Skills</h3>
           <div className="skills-row">
             {tags.map((tag) => (
               <div className="skill" key={tag}>
