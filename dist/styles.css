@@ -187,6 +187,12 @@ h1 {
   justify-content: center;
 }
 
+.project-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 /* Skills styling */
 
 .skills-container {
@@ -198,12 +204,6 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   width: 100%;
-}
-
-.skills-heading {
-  font-size: 1.6em;
-  color: var(--light-secondary);
-  margin: 0.5em 0;
 }
 
 .skill {
