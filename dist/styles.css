@@ -238,3 +238,17 @@ h1 {
   border-color: #222;
   background-color: var(--dark-primary);
 }
+
+@media only screen and (max-width: 768px) {
+  :root {
+    zoom: 50%;
+  }
+
+  .project-image {
+    width: 80%;
+  }
+
+  .title-description {
+    width: 80%;
+  }
+}
