@@ -153,6 +153,18 @@ h1 {
   color: var(--light-secondary);
 }
 
+.fa-github-square:hover {
+  color: white;
+}
+
+.fa-linkedin:hover {
+  color: #0e76a8;
+}
+
+.fa-envelope-square:hover {
+  color: red;
+}
+
 .icon-margin-left {
   margin-left: 0.5em;
 }
