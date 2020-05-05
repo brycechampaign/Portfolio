@@ -6,10 +6,10 @@ import budgetMeImg from '../static/budgetme.png';
 
 const Projects = () => {
   const kartifyDescription =
-    'An eCommerce product page frontend. I primarily worked on the reviews component, where I Utilized React to dynamically display submitted product reviews based on selected filter and sorting criterion. I also integrated Jest unit tests with TravisCI for a smoother collaborative Github integration process and I configured React Router for handling navigation between product pages';
+    'An eCommerce product page frontend. I primarily worked on the reviews component, where I utilized React to dynamically display submitted product reviews based on selected filter and sorting criterion. I also integrated Jest unit tests with TravisCI for a smoother collaborative Github integration process and I configured React Router for handling navigation between product pages';
 
   const greenfieldDescription =
-    'I Conducted the ETL process to migrate over 25 million product-related entries to an SQL database. I also Optimized API and database to handle web-scale level traffic and Implemented Redis caching to decrease latency of frequently requested endpoints by 50 percent. I deployed the Products Service API on multiple EC2 instances using a Kubernetes cluster to increase throughput significantly.';
+    'I conducted the ETL process to migrate over 25 million product-related entries to an SQL database. I also built and optimized the API and database to handle web-scale level traffic. One way I did this was by implementing Redis caching to decrease latency of frequently requested endpoints by 50 percent. I deployed the Products Service API on multiple EC2 instances using a Kubernetes cluster to increase throughput significantly.';
 
   const budgetMeDescription =
     'Budget.Me helps users plan out their monthly budgets by displaying statistics, spending history, their current monthly goal and balance, and more. Users can create a new budget or sign in if they already have one and begin tracking their spending with ease. This application was developed under hackathon-like time constraints and is not finished. I mostly developed it with the goal to improve my CSS/styling skills.';
