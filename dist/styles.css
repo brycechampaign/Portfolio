@@ -7,6 +7,7 @@
   --dark-primary: #313131;
   --dark-secondary: #2a2a2a;
   --box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  --project-width: 55rem;
 }
 
 html,
@@ -115,7 +116,13 @@ h1 {
   align-items: center;
   text-align: center;
   margin-top: 30vh;
-  width: 50%;
+  width: 100%;
+}
+
+#header-container p {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  max-width: 65rem;
 }
 
 #resume-button-icon {
@@ -199,12 +206,12 @@ h1 {
 
 .title-description {
   padding-bottom: 2em;
-  width: 50%;
+  width: var(--project-width);
 }
 
 .project-image {
   padding: 1em;
-  width: 50%;
+  width: var(--project-width);
   display: flex;
   justify-content: center;
 }
