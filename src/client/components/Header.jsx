@@ -7,8 +7,8 @@ import resume from '../static/Resume.pdf';
 const Header = () => {
   return (
     <div id="header-container">
-      <a href={resume} id="resume-link" target="_blank">
-        <button>
+      <a href={resume} target="_blank">
+        <button id="resume-button">
           Resume <FontAwesomeIcon icon={faFilePdf} id="resume-button-icon" />
         </button>
       </a>
