@@ -129,8 +129,10 @@ h1 {
   color: var(--dark-primary);
 }
 
-#resume-link {
-  width: 100%;
+#resume-button {
+  font-size: 1.5rem;
+  padding: 0.7rem;
+  cursor: pointer;
 }
 
 #name {
