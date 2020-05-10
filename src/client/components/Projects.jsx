@@ -24,6 +24,7 @@ const Projects = () => {
         title="Kartify"
         description={kartifyDescription}
         githubLink="https://github.com/Kartify-Team/Kartify"
+        altText="Kartify product page example"
         tags={[
           'Front-End',
           'React',
@@ -44,6 +45,7 @@ const Projects = () => {
         title="Greenfield API"
         description={greenfieldDescription}
         githubLink="https://github.com/Nonchalant-Narwhal/Products-Service"
+        altText="Greenfield API performance chart"
         tags={[
           'Back-End',
           'Express',
@@ -62,6 +64,7 @@ const Projects = () => {
         githubLink="https://github.com/brycechampaign/Budget.me"
         tags={['Full-Stack', 'React', 'HTML', 'CSS', 'Express', 'MongoDB', 'Heroku', 'Node']}
         imgPath={budgetMeImg}
+        altText="Budget.Me home page example"
         liveLink="https://budget-dot-me.herokuapp.com/"
       />
       <Project
@@ -71,6 +74,7 @@ const Projects = () => {
         githubLink="https://github.com/brycechampaign/Portfolio"
         tags={['Front-End', 'React', 'HTML', 'CSS', 'Express', 'Heroku', 'Node']}
         imgPath={portfolioImg}
+        altText="Portfolio home page"
       />
     </div>
   );

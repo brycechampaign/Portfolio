@@ -10,12 +10,13 @@ const Project = ({
   githubLink,
   imgPath,
   tags,
+  altText,
   liveLink = null,
 }) => {
   return (
     <div className={(isAlt ? 'project-alt' : '') + ' project'}>
       <div className="project-image">
-        <img src={imgPath} className="project-thumbnail box-shadow" />
+        <img src={imgPath} className="project-thumbnail box-shadow" alt={altText} />
       </div>
       <div className="title-description">
         <div className="project-head">
