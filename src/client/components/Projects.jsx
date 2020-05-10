@@ -3,6 +3,7 @@ import Project from './Project';
 import KartifyImg from '../static/kartify.png';
 import GreenfieldImg from '../static/greenfield-api.png';
 import budgetMeImg from '../static/budgetme.png';
+import portfolioImg from '../static/portfolio.png';
 
 const Projects = () => {
   const kartifyDescription =
@@ -13,6 +14,8 @@ const Projects = () => {
 
   const budgetMeDescription =
     'Budget.Me helps users plan out their monthly budgets by displaying statistics, spending history, their current monthly goal and balance, and more. Users can create a new budget or sign in if they already have one and begin tracking their spending with ease. This application was developed under hackathon-like time constraints and is not finished. I mostly developed it with the goal to improve my CSS/styling skills.';
+
+  const portfolioDescription = 'This portfolio site. Developed with both laptops/desktops and mobile in mind.'
 
   return (
     <div id="projects-container">
@@ -25,6 +28,8 @@ const Projects = () => {
           'Front-End',
           'React',
           'Redux',
+          'HTML',
+          'CSS',
           'Express',
           'React Router',
           'Jest',
@@ -55,9 +60,17 @@ const Projects = () => {
         title="Budget.Me"
         description={budgetMeDescription}
         githubLink="https://github.com/brycechampaign/Budget.me"
-        tags={['Full-Stack', 'React', 'Express', 'MongoDB', 'Heroku', 'Node']}
+        tags={['Full-Stack', 'React', 'HTML', 'CSS', 'Express', 'MongoDB', 'Heroku', 'Node']}
         imgPath={budgetMeImg}
         liveLink="https://budget-dot-me.herokuapp.com/"
+      />
+      <Project
+        isAlt="true"
+        title="Portfolio"
+        description={portfolioDescription}
+        githubLink="https://github.com/brycechampaign/Portfolio"
+        tags={['Front-End', 'React', 'HTML', 'CSS', 'Express', 'Heroku', 'Node']}
+        imgPath={portfolioImg}
       />
     </div>
   );
